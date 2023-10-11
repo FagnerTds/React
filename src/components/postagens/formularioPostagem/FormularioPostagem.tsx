@@ -65,10 +65,11 @@ function FormularioPostagem() {
     buscarTemas();
     if (id !== undefined) {
       buscarPostagemPorId(id);
-      console.log(tema);
+       console.log(tema);
 
     }
   }, [id]);
+
 
   useEffect(() => {
     setPostagem({
